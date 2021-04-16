@@ -56,5 +56,4 @@ async def on_message(message):
         await message.channel.send("account not found. \nenter 'argo newacc' to create one")
           
 
-#client.run(os.environ.get('DISCORD_TOKEN'))  
-client.run('ODMwNzgwMDA2Njg2OTE2NjE5.YHLqLA.fIJwBqv8E85Ns32QG6KC7cblJPQ')
+client.run(os.environ.get('DISCORD_TOKEN'))  
