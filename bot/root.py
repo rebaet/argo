@@ -34,12 +34,7 @@ async def on_message(message):
       
       #HELP
       if command == 'help':
-        await message.channel.send("```* Use 'argo newacc' to create account\n*\ 
-Use 'argo check' if you want to cheak if you have an existing account\n*\
-Use 'argo delacc' to delete account\n* Use 'argo add <followed by number>' to add coins to your account\n*\
-Use 'argo takeout <followed by number>' to deduct coins from your account\n*\
-Use 'argo give <followed by number> <ping recieve>' to give the user coins\n*\
-Use 'argo sneak <ping a friend> to see his/her balance```")
+        await message.channel.send("```* Use 'argo newacc' to create account\n* Use 'argo check' if you want to cheak if you have an existing account\n* Use 'argo delacc' to delete account\n* Use 'argo add <followed by number>' to add coins to your account\n* Use 'argo takeout <followed by number>' to deduct coins from your account\n* Use 'argo give <followed by number> <ping recieve>' to give the user coins\n* Use 'argo sneak <ping a friend> to see his/her balance```")
 
       # OPEN A NEW ACCOUNT
       if command == 'newacc':
